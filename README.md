@@ -12,6 +12,11 @@ Navigator panel(left panel in Xcode) -> Source control navigator panel -> Right 
 
 ### For creating any new module in app better to create and use other branch in GIT and after success completion make a merge
 
+- For images created file Media.xcassets -> File -> New -> File -> in searcj field find xcassets -> create xcassets catalogue
+- For colors crated file Colors.xcassets -> same way ws for Media
+
+
+
 
 
 
