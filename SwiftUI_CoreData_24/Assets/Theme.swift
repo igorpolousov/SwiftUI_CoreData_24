@@ -10,4 +10,9 @@ import UIKit
 
 final class Theme {
     
+    // Colors
+    static let accentColor = UIColor(named: "Accent")
+    static let tintColor = UIColor(named: "Tint")
+    static let backgroundColor = UIColor(named: "Background")
+    static let swipeEditColor = UIColor(named: "SwipeEdit")
 }

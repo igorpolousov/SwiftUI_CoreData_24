@@ -15,6 +15,14 @@ Navigator panel(left panel in Xcode) -> Source control navigator panel -> Right 
 - For images created file Media.xcassets -> File -> New -> File -> in searcj field find xcassets -> create xcassets catalogue
 - For colors crated file Colors.xcassets -> same way ws for Media
 
+### Adding colors to asset: if don't have colors from designer, you can use http://colormind.io It can help you to choose appropriate colors for your app. Required minimum three colors: Accent, Background and Tint.
+ 
+- choose Colors.xcassets -> left mouse click on "+" button in the bottom -> Color set -> name your color
+ -> click on color name -> on the right click on any appearence -> attribute inspector(right side Xcode)
+ -> input method: 8-bit hexadecimal -> put your hex value for selected color
+- do the same for all your colors
+- add colors to Theme file class
+
 
 
 
