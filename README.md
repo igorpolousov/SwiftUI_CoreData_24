@@ -10,6 +10,8 @@ Navigator panel(left panel in Xcode) -> Source control navigator panel -> Right 
 - Creating Folder - Assets
 - Creating file for Themes in Assets - share fonts and colors throughout app - it can be Class or Enum: final class - can read properties, but no changes and inheritance
 
+### For creating any new module in app better to create and use other branch in GIT and after success completion make a merge
+
 
 
 
