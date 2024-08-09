@@ -25,6 +25,11 @@ Navigator panel(left panel in Xcode) -> Source control navigator panel -> Right 
 
  ### There are two other methods to add colors in your app. Can find its in Theme.swift file
  
+ ### Adding custom fonts to app
+ - If fonts didn't provided to you, you can find any sort of fonts on https://fonts.google.com
+ - Choose font and download it. Will need .ttf file -> just drag'n'drop files to Assets folder ->
+ -> go app configuration file -> in Targets click you app name -> Info -> in custom iOS Target properties add "Fonts provided by application" -> add every file name you need -> add fonts to Theme.swift file any method you like -> test your font available
+ 
  
 
 

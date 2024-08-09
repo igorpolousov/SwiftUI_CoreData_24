@@ -15,6 +15,11 @@
 		C2C351E12C663B2B00E8F6D3 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C351E02C663B2B00E8F6D3 /* Theme.swift */; };
 		C2C351E32C663D4F00E8F6D3 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2C351E22C663D4F00E8F6D3 /* Media.xcassets */; };
 		C2C351E52C663DF000E8F6D3 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2C351E42C663DF000E8F6D3 /* Colors.xcassets */; };
+		C2C351EB2C66525100E8F6D3 /* Bitter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C2C351E62C66525100E8F6D3 /* Bitter-Bold.ttf */; };
+		C2C351EC2C66525100E8F6D3 /* Lobster-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C2C351E72C66525100E8F6D3 /* Lobster-Regular.ttf */; };
+		C2C351ED2C66525100E8F6D3 /* GreyQo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C2C351E82C66525100E8F6D3 /* GreyQo-Regular.ttf */; };
+		C2C351EE2C66525100E8F6D3 /* Oswald-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C2C351E92C66525100E8F6D3 /* Oswald-Regular.ttf */; };
+		C2C351EF2C66525100E8F6D3 /* Bitter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C2C351EA2C66525100E8F6D3 /* Bitter-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +33,12 @@
 		C2C351E02C663B2B00E8F6D3 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		C2C351E22C663D4F00E8F6D3 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		C2C351E42C663DF000E8F6D3 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		C2C351E62C66525100E8F6D3 /* Bitter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bitter-Bold.ttf"; sourceTree = "<group>"; };
+		C2C351E72C66525100E8F6D3 /* Lobster-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lobster-Regular.ttf"; sourceTree = "<group>"; };
+		C2C351E82C66525100E8F6D3 /* GreyQo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GreyQo-Regular.ttf"; sourceTree = "<group>"; };
+		C2C351E92C66525100E8F6D3 /* Oswald-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-Regular.ttf"; sourceTree = "<group>"; };
+		C2C351EA2C66525100E8F6D3 /* Bitter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bitter-Regular.ttf"; sourceTree = "<group>"; };
+		C2C351F02C6652ED00E8F6D3 /* SwiftUI-CoreData-24-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "SwiftUI-CoreData-24-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +73,7 @@
 		C2C351CD2C66368000E8F6D3 /* SwiftUI_CoreData_24 */ = {
 			isa = PBXGroup;
 			children = (
+				C2C351F02C6652ED00E8F6D3 /* SwiftUI-CoreData-24-Info.plist */,
 				C2C351CE2C66368000E8F6D3 /* SwiftUI_CoreData_24App.swift */,
 				C2C351D02C66368000E8F6D3 /* ContentView.swift */,
 				C2C351DF2C663A0500E8F6D3 /* Assets */,
@@ -81,6 +93,11 @@
 		C2C351DF2C663A0500E8F6D3 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				C2C351E62C66525100E8F6D3 /* Bitter-Bold.ttf */,
+				C2C351EA2C66525100E8F6D3 /* Bitter-Regular.ttf */,
+				C2C351E82C66525100E8F6D3 /* GreyQo-Regular.ttf */,
+				C2C351E72C66525100E8F6D3 /* Lobster-Regular.ttf */,
+				C2C351E92C66525100E8F6D3 /* Oswald-Regular.ttf */,
 				C2C351E02C663B2B00E8F6D3 /* Theme.swift */,
 				C2C351E22C663D4F00E8F6D3 /* Media.xcassets */,
 				C2C351E42C663DF000E8F6D3 /* Colors.xcassets */,
@@ -147,10 +164,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2C351EF2C66525100E8F6D3 /* Bitter-Regular.ttf in Resources */,
 				C2C351D62C66368200E8F6D3 /* Preview Assets.xcassets in Resources */,
+				C2C351ED2C66525100E8F6D3 /* GreyQo-Regular.ttf in Resources */,
+				C2C351EC2C66525100E8F6D3 /* Lobster-Regular.ttf in Resources */,
+				C2C351EB2C66525100E8F6D3 /* Bitter-Bold.ttf in Resources */,
 				C2C351E52C663DF000E8F6D3 /* Colors.xcassets in Resources */,
 				C2C351E32C663D4F00E8F6D3 /* Media.xcassets in Resources */,
 				C2C351D32C66368200E8F6D3 /* AppIcon.xcassets in Resources */,
+				C2C351EE2C66525100E8F6D3 /* Oswald-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +323,7 @@
 				DEVELOPMENT_TEAM = C3M56A453W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SwiftUI-CoreData-24-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -334,6 +357,7 @@
 				DEVELOPMENT_TEAM = C3M56A453W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SwiftUI-CoreData-24-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
