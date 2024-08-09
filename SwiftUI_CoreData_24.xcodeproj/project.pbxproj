@@ -11,6 +11,8 @@
 		C2C351D12C66368000E8F6D3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C351D02C66368000E8F6D3 /* ContentView.swift */; };
 		C2C351D32C66368200E8F6D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2C351D22C66368200E8F6D3 /* Assets.xcassets */; };
 		C2C351D62C66368200E8F6D3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2C351D52C66368200E8F6D3 /* Preview Assets.xcassets */; };
+		C2C351DE2C66397D00E8F6D3 /* TO_DO.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C351DD2C66397D00E8F6D3 /* TO_DO.swift */; };
+		C2C351E12C663B2B00E8F6D3 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C351E02C663B2B00E8F6D3 /* Theme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		C2C351D22C66368200E8F6D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2C351D52C66368200E8F6D3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C2C351DC2C66373200E8F6D3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C2C351DD2C66397D00E8F6D3 /* TO_DO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TO_DO.swift; sourceTree = "<group>"; };
+		C2C351E02C663B2B00E8F6D3 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +40,8 @@
 		C2C351C22C66368000E8F6D3 = {
 			isa = PBXGroup;
 			children = (
+				C2C351DC2C66373200E8F6D3 /* README.md */,
+				C2C351DD2C66397D00E8F6D3 /* TO_DO.swift */,
 				C2C351CD2C66368000E8F6D3 /* SwiftUI_CoreData_24 */,
 				C2C351CC2C66368000E8F6D3 /* Products */,
 			);
@@ -54,9 +60,9 @@
 			children = (
 				C2C351CE2C66368000E8F6D3 /* SwiftUI_CoreData_24App.swift */,
 				C2C351D02C66368000E8F6D3 /* ContentView.swift */,
+				C2C351DF2C663A0500E8F6D3 /* Assets */,
 				C2C351D22C66368200E8F6D3 /* Assets.xcassets */,
 				C2C351D42C66368200E8F6D3 /* Preview Content */,
-				C2C351DC2C66373200E8F6D3 /* README.md */,
 			);
 			path = SwiftUI_CoreData_24;
 			sourceTree = "<group>";
@@ -67,6 +73,14 @@
 				C2C351D52C66368200E8F6D3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C2C351DF2C663A0500E8F6D3 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				C2C351E02C663B2B00E8F6D3 /* Theme.swift */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +153,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2C351DE2C66397D00E8F6D3 /* TO_DO.swift in Sources */,
+				C2C351E12C663B2B00E8F6D3 /* Theme.swift in Sources */,
 				C2C351D12C66368000E8F6D3 /* ContentView.swift in Sources */,
 				C2C351CF2C66368000E8F6D3 /* SwiftUI_CoreData_24App.swift in Sources */,
 			);
