@@ -23,6 +23,10 @@ Navigator panel(left panel in Xcode) -> Source control navigator panel -> Right 
 - do the same for all your colors
 - add colors to Theme file class
 
+ ### There are two other methods to add colors in your app. Can find its in Theme.swift file
+ 
+ 
+
 
 
 
