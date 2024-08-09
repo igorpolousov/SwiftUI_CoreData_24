@@ -19,6 +19,7 @@
 		C2C351D02C66368000E8F6D3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C2C351D22C66368200E8F6D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2C351D52C66368200E8F6D3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C2C351DC2C66373200E8F6D3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +56,7 @@
 				C2C351D02C66368000E8F6D3 /* ContentView.swift */,
 				C2C351D22C66368200E8F6D3 /* Assets.xcassets */,
 				C2C351D42C66368200E8F6D3 /* Preview Content */,
+				C2C351DC2C66373200E8F6D3 /* README.md */,
 			);
 			path = SwiftUI_CoreData_24;
 			sourceTree = "<group>";
