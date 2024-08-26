@@ -9,6 +9,13 @@
 /* Begin PBXBuildFile section */
 		C27C717C2C7CAB46001BF55F /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27C717B2C7CAB46001BF55F /* CoreDataStack.swift */; };
 		C27C717F2C7CB190001BF55F /* TripsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27C717E2C7CB190001BF55F /* TripsData.swift */; };
+		C27C71822C7CB42D001BF55F /* SwiftUI_CoreData_24.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C27C71802C7CB42D001BF55F /* SwiftUI_CoreData_24.xcdatamodeld */; };
+		C27C71892C7CB6B9001BF55F /* TripModel+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27C71832C7CB6B9001BF55F /* TripModel+CoreDataClass.swift */; };
+		C27C718A2C7CB6B9001BF55F /* TripModel+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27C71842C7CB6B9001BF55F /* TripModel+CoreDataProperties.swift */; };
+		C27C718B2C7CB6B9001BF55F /* ActivityModel+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27C71852C7CB6B9001BF55F /* ActivityModel+CoreDataClass.swift */; };
+		C27C718C2C7CB6B9001BF55F /* ActivityModel+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27C71862C7CB6B9001BF55F /* ActivityModel+CoreDataProperties.swift */; };
+		C27C718D2C7CB6B9001BF55F /* DayModel+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27C71872C7CB6B9001BF55F /* DayModel+CoreDataClass.swift */; };
+		C27C718E2C7CB6B9001BF55F /* DayModel+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27C71882C7CB6B9001BF55F /* DayModel+CoreDataProperties.swift */; };
 		C2C351CF2C66368000E8F6D3 /* SwiftUI_CoreData_24App.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C351CE2C66368000E8F6D3 /* SwiftUI_CoreData_24App.swift */; };
 		C2C351D12C66368000E8F6D3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C351D02C66368000E8F6D3 /* ContentView.swift */; };
 		C2C351D32C66368200E8F6D3 /* AppIcon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2C351D22C66368200E8F6D3 /* AppIcon.xcassets */; };
@@ -27,6 +34,13 @@
 /* Begin PBXFileReference section */
 		C27C717B2C7CAB46001BF55F /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		C27C717E2C7CB190001BF55F /* TripsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsData.swift; sourceTree = "<group>"; };
+		C27C71812C7CB42D001BF55F /* SwiftUI_CoreData_24.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftUI_CoreData_24.xcdatamodel; sourceTree = "<group>"; };
+		C27C71832C7CB6B9001BF55F /* TripModel+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TripModel+CoreDataClass.swift"; sourceTree = "<group>"; };
+		C27C71842C7CB6B9001BF55F /* TripModel+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TripModel+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		C27C71852C7CB6B9001BF55F /* ActivityModel+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ActivityModel+CoreDataClass.swift"; sourceTree = "<group>"; };
+		C27C71862C7CB6B9001BF55F /* ActivityModel+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ActivityModel+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		C27C71872C7CB6B9001BF55F /* DayModel+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DayModel+CoreDataClass.swift"; sourceTree = "<group>"; };
+		C27C71882C7CB6B9001BF55F /* DayModel+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DayModel+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		C2C351CB2C66368000E8F6D3 /* SwiftUI_CoreData_24.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_CoreData_24.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2C351CE2C66368000E8F6D3 /* SwiftUI_CoreData_24App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_CoreData_24App.swift; sourceTree = "<group>"; };
 		C2C351D02C66368000E8F6D3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -59,7 +73,14 @@
 		C27C717A2C7CAAC4001BF55F /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
+				C27C71832C7CB6B9001BF55F /* TripModel+CoreDataClass.swift */,
+				C27C71842C7CB6B9001BF55F /* TripModel+CoreDataProperties.swift */,
+				C27C71852C7CB6B9001BF55F /* ActivityModel+CoreDataClass.swift */,
+				C27C71862C7CB6B9001BF55F /* ActivityModel+CoreDataProperties.swift */,
+				C27C71872C7CB6B9001BF55F /* DayModel+CoreDataClass.swift */,
+				C27C71882C7CB6B9001BF55F /* DayModel+CoreDataProperties.swift */,
 				C27C717B2C7CAB46001BF55F /* CoreDataStack.swift */,
+				C27C71802C7CB42D001BF55F /* SwiftUI_CoreData_24.xcdatamodeld */,
 			);
 			path = CoreData;
 			sourceTree = "<group>";
@@ -205,9 +226,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C27C71822C7CB42D001BF55F /* SwiftUI_CoreData_24.xcdatamodeld in Sources */,
 				C27C717C2C7CAB46001BF55F /* CoreDataStack.swift in Sources */,
 				C2C351DE2C66397D00E8F6D3 /* TO_DO.swift in Sources */,
 				C27C717F2C7CB190001BF55F /* TripsData.swift in Sources */,
+				C27C71892C7CB6B9001BF55F /* TripModel+CoreDataClass.swift in Sources */,
+				C27C718A2C7CB6B9001BF55F /* TripModel+CoreDataProperties.swift in Sources */,
+				C27C718B2C7CB6B9001BF55F /* ActivityModel+CoreDataClass.swift in Sources */,
+				C27C718C2C7CB6B9001BF55F /* ActivityModel+CoreDataProperties.swift in Sources */,
+				C27C718D2C7CB6B9001BF55F /* DayModel+CoreDataClass.swift in Sources */,
+				C27C718E2C7CB6B9001BF55F /* DayModel+CoreDataProperties.swift in Sources */,
 				C2C351E12C663B2B00E8F6D3 /* Theme.swift in Sources */,
 				C2C351D12C66368000E8F6D3 /* ContentView.swift in Sources */,
 				C2C351CF2C66368000E8F6D3 /* SwiftUI_CoreData_24App.swift in Sources */,
@@ -426,6 +454,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C27C71802C7CB42D001BF55F /* SwiftUI_CoreData_24.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C27C71812C7CB42D001BF55F /* SwiftUI_CoreData_24.xcdatamodel */,
+			);
+			currentVersion = C27C71812C7CB42D001BF55F /* SwiftUI_CoreData_24.xcdatamodel */;
+			name = SwiftUI_CoreData_24.xcdatamodeld;
+			path = "/Users/igorpolousov/Desktop/Projects for AppStore/SwiftUI_CoreData_24/SwiftUI_CoreData_24/CoreData/SwiftUI_CoreData_24.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = C2C351C32C66368000E8F6D3 /* Project object */;
 }
