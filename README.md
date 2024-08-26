@@ -30,6 +30,10 @@ Navigator panel(left panel in Xcode) -> Source control navigator panel -> Right 
  - Choose font and download it. Will need .ttf file -> just drag'n'drop files to Assets folder ->
  -> go app configuration file -> in Targets click you app name -> Info -> in custom iOS Target properties add "Fonts provided by application" -> add every file name you need -> add fonts to Theme.swift file any method you like -> test your font available
  
+ ## 4. Adding CoreData - working with data base
+ - creating folder CoreData
+ - creating file CoreDataStack - creating store and CoreData services functions in CoreDataStack class
+ - 
  
 
 
