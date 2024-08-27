@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct SwiftUI_CoreData_24App: App {
+    
+    // Adding CoreData Stack
+    let coreDataStack = CoreDataStack(modelName: "SwiftUI_CoreData_24")
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TripView()
         }
     }
 }

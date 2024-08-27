@@ -33,7 +33,12 @@ Navigator panel(left panel in Xcode) -> Source control navigator panel -> Right 
  ## 4. Adding CoreData - working with data base
  - creating folder CoreData
  - creating file CoreDataStack - creating store and CoreData services functions in CoreDataStack class
- - 
+ 
+ ## 5. Add trips model variable
+ - Last porject for sharing data in app was used class instance with static property
+ - At this project will be used Actor with @Published property. Since the data from this variable will be involved in building the UI, they must be updated in the main thread.
+ 
+ !!! TO-DO getting data from CoreData for building UI or make variable in heap and work with it?
  
 
 

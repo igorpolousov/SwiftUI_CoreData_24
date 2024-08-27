@@ -7,4 +7,7 @@
 
 import Foundation
 
-
+actor TripsData: ObservableObject {
+    
+    @Published var tripsData: [TripModel] = []
+}
