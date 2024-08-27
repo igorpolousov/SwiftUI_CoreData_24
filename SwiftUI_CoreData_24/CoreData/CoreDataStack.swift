@@ -8,6 +8,7 @@
 import Foundation
 import CoreData
 
+// Нужен ли здесь ObservalbeObject??
 class CoreDataStack: ObservableObject {
     // CoreData model name
     private let modelName: String

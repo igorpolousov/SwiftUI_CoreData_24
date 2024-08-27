@@ -17,6 +17,7 @@
 		C27C718D2C7CB6B9001BF55F /* DayModel+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27C71872C7CB6B9001BF55F /* DayModel+CoreDataClass.swift */; };
 		C27C718E2C7CB6B9001BF55F /* DayModel+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27C71882C7CB6B9001BF55F /* DayModel+CoreDataProperties.swift */; };
 		C27C71912C7CB844001BF55F /* TripView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27C71902C7CB844001BF55F /* TripView.swift */; };
+		C27C71972C7E033F001BF55F /* TripFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27C71962C7E033F001BF55F /* TripFunctions.swift */; };
 		C2C351CF2C66368000E8F6D3 /* SwiftUI_CoreData_24App.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C351CE2C66368000E8F6D3 /* SwiftUI_CoreData_24App.swift */; };
 		C2C351D32C66368200E8F6D3 /* AppIcon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2C351D22C66368200E8F6D3 /* AppIcon.xcassets */; };
 		C2C351D62C66368200E8F6D3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2C351D52C66368200E8F6D3 /* Preview Assets.xcassets */; };
@@ -42,6 +43,7 @@
 		C27C71872C7CB6B9001BF55F /* DayModel+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DayModel+CoreDataClass.swift"; sourceTree = "<group>"; };
 		C27C71882C7CB6B9001BF55F /* DayModel+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DayModel+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		C27C71902C7CB844001BF55F /* TripView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripView.swift; sourceTree = "<group>"; };
+		C27C71962C7E033F001BF55F /* TripFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripFunctions.swift; sourceTree = "<group>"; };
 		C2C351CB2C66368000E8F6D3 /* SwiftUI_CoreData_24.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_CoreData_24.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2C351CE2C66368000E8F6D3 /* SwiftUI_CoreData_24App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_CoreData_24App.swift; sourceTree = "<group>"; };
 		C2C351D22C66368200E8F6D3 /* AppIcon.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AppIcon.xcassets; sourceTree = "<group>"; };
@@ -96,7 +98,7 @@
 		C27C718F2C7CB81B001BF55F /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				C27C71902C7CB844001BF55F /* TripView.swift */,
+				C27C71952C7DEDD0001BF55F /* TripViews */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -104,6 +106,7 @@
 		C27C71922C7DE861001BF55F /* TripFunctions */ = {
 			isa = PBXGroup;
 			children = (
+				C27C71962C7E033F001BF55F /* TripFunctions.swift */,
 			);
 			path = TripFunctions;
 			sourceTree = "<group>";
@@ -120,6 +123,14 @@
 			children = (
 			);
 			path = ActivityFunctions;
+			sourceTree = "<group>";
+		};
+		C27C71952C7DEDD0001BF55F /* TripViews */ = {
+			isa = PBXGroup;
+			children = (
+				C27C71902C7CB844001BF55F /* TripView.swift */,
+			);
+			path = TripViews;
 			sourceTree = "<group>";
 		};
 		C2C351C22C66368000E8F6D3 = {
@@ -266,6 +277,7 @@
 				C27C718A2C7CB6B9001BF55F /* TripModel+CoreDataProperties.swift in Sources */,
 				C27C718B2C7CB6B9001BF55F /* ActivityModel+CoreDataClass.swift in Sources */,
 				C27C718C2C7CB6B9001BF55F /* ActivityModel+CoreDataProperties.swift in Sources */,
+				C27C71972C7E033F001BF55F /* TripFunctions.swift in Sources */,
 				C27C718D2C7CB6B9001BF55F /* DayModel+CoreDataClass.swift in Sources */,
 				C27C71912C7CB844001BF55F /* TripView.swift in Sources */,
 				C27C718E2C7CB6B9001BF55F /* DayModel+CoreDataProperties.swift in Sources */,

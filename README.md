@@ -31,6 +31,7 @@ Navigator panel(left panel in Xcode) -> Source control navigator panel -> Right 
  -> go app configuration file -> in Targets click you app name -> Info -> in custom iOS Target properties add "Fonts provided by application" -> add every file name you need -> add fonts to Theme.swift file any method you like -> test your font available
  
  ## 4. Adding CoreData - working with data base
+ ### If folder for CoreData already created and already created files in it, changing folder name can cause the error!
  - creating folder CoreData
  - creating file CoreDataStack - creating store and CoreData services functions in CoreDataStack class
  
@@ -38,7 +39,12 @@ Navigator panel(left panel in Xcode) -> Source control navigator panel -> Right 
  - Last porject for sharing data in app was used class instance with static property
  - At this project will be used Actor with @Published property. Since the data from this variable will be involved in building the UI, they must be updated in the main thread.
  
- !!! TO-DO getting data from CoreData for building UI or make variable in heap and work with it?
+ ### Options for data sharing in app where objects has relationship. What are the options for global variable? 
+  Trips->Trip->Days->Day-> Activities-> Activity
+  
+  - For the first attempt we will use simple actor and static property without initializing  
+ 
+ 
  
 
 
