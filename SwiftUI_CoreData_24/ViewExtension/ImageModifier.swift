@@ -15,5 +15,11 @@ extension Image {
             .aspectRatio(contentMode: .fill)
             .clipped()
     }
+    
+    func applyCameraImage() -> some View {
+        self
+            .tint(Color.themeTint)
+            .frame(width: 50, height: 50)
+    }
 }
 

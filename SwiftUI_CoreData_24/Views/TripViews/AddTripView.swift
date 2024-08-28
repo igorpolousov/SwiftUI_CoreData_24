@@ -58,13 +58,14 @@ struct AddTripView: View {
                             isShowingImagePicker = true
                         } label: {
                             Image("camera")
-                                .tint(Color.themeTint)
-                                .frame(width: 50, height: 50)
+                                .applyCameraImage()
+                            
                         }
                         .padding(.trailing, 30)
                     }
                     
                     TextField("  Enter trip name", text: $tripName)
+                        .modifier(TextFieldModifier())
                 }
                 .padding(.bottom, 330)
            
