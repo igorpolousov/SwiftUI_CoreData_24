@@ -16,6 +16,7 @@ struct SwiftUI_CoreData_24App: App {
     var body: some Scene {
         WindowGroup {
             TripView()
+                .environmentObject(coreDataStack)
         }
     }
 }

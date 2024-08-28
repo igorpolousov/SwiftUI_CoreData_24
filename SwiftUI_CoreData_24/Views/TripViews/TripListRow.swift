@@ -20,11 +20,12 @@ struct TripListRow: View {
             if let imageData {
                 if let imageToShow = UIImage(data: imageData) {
                     Image(uiImage: imageToShow)
-                        .resizable()
-                        .aspectRatio(contentMode: .fill)
+                        .imageModifier()
+                        //.resizable()
+                        //.aspectRatio(contentMode: .fill)
                         .frame(height: 160)
                         .cornerRadius(10)
-                        .clipped()
+                        //.clipped()
                 }
             }
             

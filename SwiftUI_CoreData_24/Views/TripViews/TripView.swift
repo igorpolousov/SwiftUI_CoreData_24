@@ -9,6 +9,9 @@ import SwiftUI
 
 struct TripView: View {
     
+    @State private var isShowingAddTripView = false
+    @State var tripIndexToEdit: Int?
+    @EnvironmentObject var coreDataStack: CoreDataStack
     
     var body: some View {
         ZStack {
