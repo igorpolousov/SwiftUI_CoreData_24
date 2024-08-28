@@ -23,6 +23,7 @@
 		C27C719E2C7F44F1001BF55F /* AddTripViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27C719D2C7F44F1001BF55F /* AddTripViewModifier.swift */; };
 		C27C71A32C7F48BD001BF55F /* ImageModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27C71A22C7F48BD001BF55F /* ImageModifier.swift */; };
 		C27C71A82C7F51C9001BF55F /* TextFieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27C71A72C7F51C9001BF55F /* TextFieldModifier.swift */; };
+		C27C71AA2C7F6217001BF55F /* FloatingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27C71A92C7F6217001BF55F /* FloatingButton.swift */; };
 		C2C351CF2C66368000E8F6D3 /* SwiftUI_CoreData_24App.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C351CE2C66368000E8F6D3 /* SwiftUI_CoreData_24App.swift */; };
 		C2C351D32C66368200E8F6D3 /* AppIcon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2C351D22C66368200E8F6D3 /* AppIcon.xcassets */; };
 		C2C351D62C66368200E8F6D3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2C351D52C66368200E8F6D3 /* Preview Assets.xcassets */; };
@@ -54,6 +55,7 @@
 		C27C719D2C7F44F1001BF55F /* AddTripViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTripViewModifier.swift; sourceTree = "<group>"; };
 		C27C71A22C7F48BD001BF55F /* ImageModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageModifier.swift; sourceTree = "<group>"; };
 		C27C71A72C7F51C9001BF55F /* TextFieldModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldModifier.swift; sourceTree = "<group>"; };
+		C27C71A92C7F6217001BF55F /* FloatingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingButton.swift; sourceTree = "<group>"; };
 		C2C351CB2C66368000E8F6D3 /* SwiftUI_CoreData_24.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_CoreData_24.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2C351CE2C66368000E8F6D3 /* SwiftUI_CoreData_24App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_CoreData_24App.swift; sourceTree = "<group>"; };
 		C2C351D22C66368200E8F6D3 /* AppIcon.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AppIcon.xcassets; sourceTree = "<group>"; };
@@ -154,17 +156,18 @@
 			path = ViewModifiers;
 			sourceTree = "<group>";
 		};
-		C27C71A12C7F4894001BF55F /* ViewExtension */ = {
+		C27C71A12C7F4894001BF55F /* ViewExtensions */ = {
 			isa = PBXGroup;
 			children = (
 				C27C71A22C7F48BD001BF55F /* ImageModifier.swift */,
 			);
-			path = ViewExtension;
+			path = ViewExtensions;
 			sourceTree = "<group>";
 		};
 		C27C71A42C7F4CDE001BF55F /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
+				C27C71A92C7F6217001BF55F /* FloatingButton.swift */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -194,7 +197,7 @@
 				C2C351CE2C66368000E8F6D3 /* SwiftUI_CoreData_24App.swift */,
 				C27C718F2C7CB81B001BF55F /* Views */,
 				C27C719C2C7F44A3001BF55F /* ViewModifiers */,
-				C27C71A12C7F4894001BF55F /* ViewExtension */,
+				C27C71A12C7F4894001BF55F /* ViewExtensions */,
 				C27C71A42C7F4CDE001BF55F /* CustomViews */,
 				C27C717A2C7CAAC4001BF55F /* CoreData */,
 				C27C717D2C7CB168001BF55F /* TripsData */,
@@ -315,6 +318,7 @@
 				C27C717F2C7CB190001BF55F /* TripsData.swift in Sources */,
 				C27C719E2C7F44F1001BF55F /* AddTripViewModifier.swift in Sources */,
 				C27C71892C7CB6B9001BF55F /* TripModel+CoreDataClass.swift in Sources */,
+				C27C71AA2C7F6217001BF55F /* FloatingButton.swift in Sources */,
 				C27C718A2C7CB6B9001BF55F /* TripModel+CoreDataProperties.swift in Sources */,
 				C27C718B2C7CB6B9001BF55F /* ActivityModel+CoreDataClass.swift in Sources */,
 				C27C71A82C7F51C9001BF55F /* TextFieldModifier.swift in Sources */,
