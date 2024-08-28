@@ -23,7 +23,8 @@
 		C27C719E2C7F44F1001BF55F /* AddTripViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27C719D2C7F44F1001BF55F /* AddTripViewModifier.swift */; };
 		C27C71A32C7F48BD001BF55F /* ImageModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27C71A22C7F48BD001BF55F /* ImageModifier.swift */; };
 		C27C71A82C7F51C9001BF55F /* TextFieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27C71A72C7F51C9001BF55F /* TextFieldModifier.swift */; };
-		C27C71AA2C7F6217001BF55F /* FloatingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27C71A92C7F6217001BF55F /* FloatingButton.swift */; };
+		C27C71AA2C7F6217001BF55F /* FloatingActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27C71A92C7F6217001BF55F /* FloatingActionButton.swift */; };
+		C27C71AC2C7F63DA001BF55F /* PlusButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27C71AB2C7F63DA001BF55F /* PlusButtonModifier.swift */; };
 		C2C351CF2C66368000E8F6D3 /* SwiftUI_CoreData_24App.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C351CE2C66368000E8F6D3 /* SwiftUI_CoreData_24App.swift */; };
 		C2C351D32C66368200E8F6D3 /* AppIcon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2C351D22C66368200E8F6D3 /* AppIcon.xcassets */; };
 		C2C351D62C66368200E8F6D3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2C351D52C66368200E8F6D3 /* Preview Assets.xcassets */; };
@@ -55,7 +56,8 @@
 		C27C719D2C7F44F1001BF55F /* AddTripViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTripViewModifier.swift; sourceTree = "<group>"; };
 		C27C71A22C7F48BD001BF55F /* ImageModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageModifier.swift; sourceTree = "<group>"; };
 		C27C71A72C7F51C9001BF55F /* TextFieldModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldModifier.swift; sourceTree = "<group>"; };
-		C27C71A92C7F6217001BF55F /* FloatingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingButton.swift; sourceTree = "<group>"; };
+		C27C71A92C7F6217001BF55F /* FloatingActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingActionButton.swift; sourceTree = "<group>"; };
+		C27C71AB2C7F63DA001BF55F /* PlusButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusButtonModifier.swift; sourceTree = "<group>"; };
 		C2C351CB2C66368000E8F6D3 /* SwiftUI_CoreData_24.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_CoreData_24.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2C351CE2C66368000E8F6D3 /* SwiftUI_CoreData_24App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_CoreData_24App.swift; sourceTree = "<group>"; };
 		C2C351D22C66368200E8F6D3 /* AppIcon.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AppIcon.xcassets; sourceTree = "<group>"; };
@@ -152,6 +154,7 @@
 			children = (
 				C27C719D2C7F44F1001BF55F /* AddTripViewModifier.swift */,
 				C27C71A72C7F51C9001BF55F /* TextFieldModifier.swift */,
+				C27C71AB2C7F63DA001BF55F /* PlusButtonModifier.swift */,
 			);
 			path = ViewModifiers;
 			sourceTree = "<group>";
@@ -167,7 +170,7 @@
 		C27C71A42C7F4CDE001BF55F /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
-				C27C71A92C7F6217001BF55F /* FloatingButton.swift */,
+				C27C71A92C7F6217001BF55F /* FloatingActionButton.swift */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -314,11 +317,12 @@
 				C27C71992C7F3D4D001BF55F /* TripListRow.swift in Sources */,
 				C27C71822C7CB42D001BF55F /* SwiftUI_CoreData_24.xcdatamodeld in Sources */,
 				C27C717C2C7CAB46001BF55F /* CoreDataStack.swift in Sources */,
+				C27C71AC2C7F63DA001BF55F /* PlusButtonModifier.swift in Sources */,
 				C2C351DE2C66397D00E8F6D3 /* TO_DO.swift in Sources */,
 				C27C717F2C7CB190001BF55F /* TripsData.swift in Sources */,
 				C27C719E2C7F44F1001BF55F /* AddTripViewModifier.swift in Sources */,
 				C27C71892C7CB6B9001BF55F /* TripModel+CoreDataClass.swift in Sources */,
-				C27C71AA2C7F6217001BF55F /* FloatingButton.swift in Sources */,
+				C27C71AA2C7F6217001BF55F /* FloatingActionButton.swift in Sources */,
 				C27C718A2C7CB6B9001BF55F /* TripModel+CoreDataProperties.swift in Sources */,
 				C27C718B2C7CB6B9001BF55F /* ActivityModel+CoreDataClass.swift in Sources */,
 				C27C71A82C7F51C9001BF55F /* TextFieldModifier.swift in Sources */,
