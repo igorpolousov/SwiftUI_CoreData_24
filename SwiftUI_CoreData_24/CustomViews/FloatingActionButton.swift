@@ -8,13 +8,22 @@
 import SwiftUI
 
 struct FloatingActionButton: View {
+    
+    @State var isShowingAddTripView = false
+    
     var body: some View {
         VStack {
             Button(action: {
-                
+                withAnimation(.easeInOut(duration: 0.25)) {
+                    isShowingAddTripView.toggle()
+                }
             }, label: {
-                /*@START_MENU_TOKEN@*/Text("Button")/*@END_MENU_TOKEN@*/
+                Text("+")
+                    .modifier(PlusButtonModifier())
+             
             })
+            .frame(width: 60, height: 60)
+            .padding(.trailing, 10)
         }
     }
 }
