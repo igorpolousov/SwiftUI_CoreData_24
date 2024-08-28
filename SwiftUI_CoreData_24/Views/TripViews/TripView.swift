@@ -9,8 +9,24 @@ import SwiftUI
 
 struct TripView: View {
     
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            NavigationView {
+                ZStack {
+                    // List of trips
+                    List {
+                        ForEach(TripsData.trips) {trip in
+                            let tripIndex = TripsData.trips.firstIndex(of: trip)
+                            
+                        }
+                    }
+                    .listStyle(.grouped)
+                    .scrollContentBackground(.hidden)
+                    .background(Color.themeBackground)
+                }
+            }
+        }
     }
 }
 

@@ -36,7 +36,7 @@ class TripFunctions {
             print("ASYNC fetch request \(Thread.current)")
             try coreDataStack.managedContext.execute(asyncFetchRequest)
         } catch let error as NSError{
-            print("Unable to load data")
+            print("Unable to load data \(error), \(error.localizedDescription)")
         }
     }
     
